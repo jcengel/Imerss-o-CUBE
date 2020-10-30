@@ -1,0 +1,266 @@
+* {
+/*border: 1px solid blue; /* linhas de guia */
+margin: 0
+padding: 0
+}
+
+/*h1, h2, h3, p, body {
+margin: 0;
+}*/
+
+
+
+body {
+    background-color: #1b1754;
+}
+
+header {
+  background-color:#242b65;
+  padding: 32px 64px;  
+  margin-bottom: -40px;
+}
+
+.foto {
+  border: 4px solid #1a303d;
+  border-radius: 50%;
+  margin-bottom: -120px;
+  margin-right: 24px;
+}
+
+.dados {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 64px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  }
+
+.profissao {
+    font-size: 24px;
+}
+
+.t60 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+.conteudo h3{
+  font-weight: normal;
+  color: rgb(168, 152, 249);
+}
+
+
+.periodo {
+  font-size: 16px;
+  }
+
+main {
+  padding: 40px 70px;
+  display: flex
+}
+
+.coluna-menor { 
+  margin-top: 48px;
+  width: 360px;
+}
+
+.coluna-menor h2 {
+color: rgba(255, 255, 255, 0.8)
+}
+
+.coluna-menor img{
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  margin-right: 8px;
+  }
+
+.coluna-menor .conteudo {
+display: inline-block;
+}
+
+.coluna-menor li{
+  margin-top: 28px;
+  display: flex
+}
+
+.linha {
+  width: 80px;
+  border-top: 3px solid;
+  margin-top: 9px;
+}
+
+.experiencias .linha{
+  color: blue;
+  }
+
+.formacao {
+  margin-top: 32px;
+}
+
+.formacao .linha {
+  color: rgba(255, 196, 0, 0.87)
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.coluna-maior {
+    margin-left:24px;
+}
+
+.coluna-maior h2{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 52px;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+}
+
+.habilidades{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.habilidade {
+  background-color: #FFFFFFFF;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 12px;
+  width: 288px
+}
+
+.habilidade h3{
+  font-size:36px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.habilidade p{
+  font-size: 20px;
+}
+
+.progresso{
+width:100%;
+display: flex;
+}
+
+.barra{
+  width: 20%;
+  margin-top: 8px;
+  height: 4px;
+  background-color: blue;
+}
+
+.incompleto {
+  opacity: 0.2;
+}
+
+.habilidade li{
+  margin-top: 32px;
+}
+
+.habilidade li:first-child {
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projeto {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projeto {
+  display: flex;
+  flex-wrap: wrap;
+  width: 392px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 16px;
+  margin: 12px;
+  color: black
+}
+
+
+
+
+.projeto {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.projeto  h2{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: black;
+}
+
+.projeto h3{
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.projeto p{
+  margin-top: -5px;
+  margin-bottom: 24px;
+  font-size: 16px;  
+  font-weight: normal;
+  text-align: justify;
+}
+
+.projetos .projeto img {
+  width: 100%;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+}
+
+.projetos .projeto a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #809eff;
+  padding: 12px;
+  border-radius: 10px;
+  font-family: "open sans", sans-serif;
+}
+
+footer {
+  background-color: #242b65;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 57.6px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
