@@ -1,30 +1,25 @@
 * {
-/*border: 1px solid blue; /* linhas de guia */
-margin: 0
-padding: 0
+  margin: 0;
+  padding: 0;
 }
-
-/*h1, h2, h3, p, body {
-margin: 0;
-}*/
-
 
 
 body {
-    background-color: #1b1754;
+    background-color: #617aa7ee;
 }
 
 header {
-  background-color:#242b65;
+  background-color:#1a303d;
   padding: 32px 64px;  
   margin-bottom: -40px;
+
 }
 
 .foto {
   border: 4px solid #1a303d;
   border-radius: 50%;
-  margin-bottom: -120px;
-  margin-right: 24px;
+  margin-bottom: -100px;
+  margin-right: 40px;
 }
 
 .dados {
@@ -65,7 +60,7 @@ p {
 
 .conteudo h3{
   font-weight: normal;
-  color: rgb(168, 152, 249);
+  color: rgb(37, 33, 58);
 }
 
 
@@ -231,11 +226,12 @@ display: flex;
 .projeto h3{
   font-weight: bold;
   font-size: 28px;
+  margin-bottom: 12px;
 }
 
 .projeto p{
   margin-top: -5px;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   font-size: 16px;  
   font-weight: normal;
   text-align: justify;
@@ -252,13 +248,14 @@ display: flex;
   color: #fff;
   text-decoration: none;
   background-color: #809eff;
+  font-size: 16px;
   padding: 12px;
   border-radius: 10px;
   font-family: "open sans", sans-serif;
 }
 
 footer {
-  background-color: #242b65;
+  background-color: #1a303d;
   color: rgba(255, 255, 255, 0.8);
   padding: 57.6px;
   text-align: center;
